@@ -1,4 +1,4 @@
-FROM ghcr.io/social-mail/docker-node-clamav:main
+FROM ubuntu
 VOLUME /var/lib/clamav
 VOLUME /data
 WORKDIR /app
